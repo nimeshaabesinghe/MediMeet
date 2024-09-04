@@ -1,11 +1,10 @@
 import { useState } from 'react'
+import Layout from '../layouts/Layout'
 
 function App() {
 
   return (
-    <>
-  <h1>Welcome to the Counter App</h1>
-    </>
+    <Layout/>
   )
 }
 
