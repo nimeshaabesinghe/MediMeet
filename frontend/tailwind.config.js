@@ -7,9 +7,15 @@ export default {
   theme: {
     colors: {
       blue: "#4A90E2",
-      lightGray: "#D3D3D3",
-      darkGray: "#343A40",
+      lightGray: "#aeafb1",
+      darkGray: "#333333",
       pastelBlue: "#AEDFF7",
+      customPink: "#9B6FCE",
+      teal: "#2D9CDB",
+      purple: "#8262BD",
+      red: "#E74C3C",
+      cyan: "#ECF9F9",
+      white: "#FFFFFF",
     },
     extend: {},
   },
