@@ -28,8 +28,8 @@ const Header = () => {
                     e.isActive
                       ? "text-blue"
                       : link.path == "/login" || link.path == "/signup"
-                      ? "bg-blue text-lightGray p-2 rounded"
-                      : "text-darkGray"
+                      ? "bg-cyan text-blue border-2 border-blue p-2 rounded"
+                      : "text-darkGray rounded"
                   }
                 >
                   {link.title}
