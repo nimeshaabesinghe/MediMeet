@@ -1,8 +1,8 @@
 import React from "react";
 
-const ResourcesBox = ({ image, text }) => {
+const AvatarWithText = ({ image, text }) => {
   return (
-    <div className="bg-cyan rounded-lg shadow-lg p-4 flex flex-col items-center h-52 w-36">
+    <div className="bg-white rounded-lg shadow-md p-4 flex flex-col items-center h-52 w-40">
       <div className="mb-4">
         <img
           src={image}
@@ -17,4 +17,4 @@ const ResourcesBox = ({ image, text }) => {
   );
 };
 
-export default ResourcesBox;
+export default AvatarWithText;

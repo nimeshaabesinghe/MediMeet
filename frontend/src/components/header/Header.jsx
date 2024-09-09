@@ -13,7 +13,7 @@ const navLinkes = [
 
 const Header = () => {
   return (
-    <header className="flex items-center">
+    <header className="flex items-center mb-4">
       <div className="max-w-full w-[1440px] px-5 mx-auto flex justify-between">
         <div className="">
           <img src={logo} alt="logo" className="h-32" />
