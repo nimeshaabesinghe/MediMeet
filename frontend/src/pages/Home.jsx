@@ -10,14 +10,14 @@ import Carousel from "../components/Carousel";
 const Home = () => {
   return (
     <>
-      <div className="bg-gradient-to-l from-blue via-cyan to-white p-6 bg-gray-50">
-        <div className="flex flex-col md:flex-row md:space-x-6 items-center justify-center mb-16">
-          <div className="text-lightGray flex flex-col space-y-12 max-w-lg">
-            <h1 className="text-center text-4xl font-semibold font-serif">
-              " Welcome to MediMeet "
+      <div className="">
+        <div className="flex flex-col md:flex-row items-center justify-center max-w-full px-4 py-8">
+          <div className=" flex flex-col space-y-8 md:space-y-12 max-w-lg items-center md:items-start md:pl-12">
+            <h1 className="text-darkGray text-center md:text-left text-4xl font-semibold font-serif">
+              Welcome to MediMeet
             </h1>
-            <p>
-              MediMeet is a platform that connects healthcare professionals with
+            <p className="text-lightGray text-center md:text-left">
+              MediMeet is a platform that connects healthcare professiona with
               patients. We aim to help patients find the right healthcare
               provider based on their needs, preferences, and location.
             </p>
@@ -25,26 +25,7 @@ const Home = () => {
               ABOUT US
             </button>
           </div>
-          <div className="flex flex-col items-center justify-center mt-6 md:mt-0">
-            {/* <div>
-              <img
-                src={i1}
-                alt="i1"
-                className="w-40 h-40 object-cover mb-4 rounded-lg shadow-md"
-              />
-            </div>
-            <div className="flex space-x-4">
-              <img
-                src={i2}
-                alt="i1"
-                className="w-40 h-40 object-cover rounded-lg shadow-md"
-              />
-              <img
-                src={i3}
-                alt="i3"
-                className="w-40 h-40 object-cover rounded-lg shadow-md"
-              />
-            </div> */}
+          <div className="flex flex-col items-center justify-center">
             <Carousel />
           </div>
         </div>
