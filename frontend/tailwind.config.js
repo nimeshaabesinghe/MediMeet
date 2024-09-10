@@ -7,7 +7,7 @@ export default {
   theme: {
     colors: {
       blue: "#4A90E2",
-      lightGray: "#aeafb1",
+      lightGray: "#808080	",
       darkGray: "#333333",
       pastelBlue: "#AEDFF7",
       customPink: "#9B6FCE",
@@ -16,6 +16,7 @@ export default {
       red: "#E74C3C",
       cyan: "#ECF9F9",
       white: "#FFFFFF",
+      skyBlue: "#0000FF",
     },
     extend: {},
   },

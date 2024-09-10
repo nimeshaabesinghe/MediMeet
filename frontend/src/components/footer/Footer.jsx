@@ -24,21 +24,23 @@ const socialLinks = [
 ];
 const Footer = () => {
   return (
-    <div className="flex md:flex-row flex-col justify-between items-center bg-cyan mt-16 p-8">
+    <div className="flex md:flex-row flex-col justify-between items-center bg-pastelBlue mt-16 p-8">
       <div className="flex flex-col-1 items-center">
         <div>
-          <img src={logo} alt="logo" className="h-16 mb-4" />
-          <small>
+          <div className="bg-white rounded-full p-4 flex items-center justify-center">
+            <img src={logo} alt="logo" className="h-32 object-contain" />
+          </div>
+          <small className="flex items-center justify-center pt-6">
             &copy;{new Date().getFullYear()} MediMeet. All rights reserved.
           </small>
         </div>
       </div>
       <div className="h-32 w-px bg-darkGray" />
       <div className="flex flex-col-1 text-center">
-        <div className="space-y-6">
+        <div className="space-y-3">
           <div className="text-lg font-semibold">QUICK LINKS</div>
           <div>
-            <ul className="space-y-4">
+            <ul className="space-y-1">
               {navLinkes.map((link, index) => (
                 <li key={index}>
                   <a
