@@ -49,9 +49,9 @@ const serviceList = [
 const Service = () => {
   return (
     <section>
-      <div className="bg-gradient-to-tr from-cyan to-white mb-8">
+      <div className="bg-gradient-to-bl from-purple via-white to-white mb-12 -mt-2">
         <div className="text-center ml-24 mr-24 ">
-          <h1 className="text-3xl">Our Medical Services</h1>
+          <h1 className="text-3xl pt-4">Our Medical Services</h1>
           <h3 className="text-xl pt-2 pb-8 text-purple">
             Comprehensive healthcare solutions tailored for your needs
           </h3>

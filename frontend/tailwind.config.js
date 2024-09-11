@@ -12,7 +12,7 @@ export default {
       pastelBlue: "#AEDFF7",
       customPink: "#9B6FCE",
       teal: "#2D9CDB",
-      purple: "#8262BD",
+      purple: "#a03b99",
       red: "#E74C3C",
       cyan: "#ECF9F9",
       white: "#FFFFFF",

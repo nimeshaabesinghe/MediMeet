@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/MediMeet-removebg-preview.png";
+import logo from "../../assets/medimeet__3_-removebg-preview (1).png";
 import {
   faFacebookF,
   faTwitter,
@@ -27,8 +27,8 @@ const Footer = () => {
     <div className="flex md:flex-row flex-col justify-between items-center bg-pastelBlue mt-16 p-8">
       <div className="flex flex-col-1 items-center">
         <div>
-          <div className="bg-white rounded-full p-4 flex items-center justify-center">
-            <img src={logo} alt="logo" className="h-32 object-contain" />
+          <div className="bg-white rounded-full shadow-sm shrink-0 flex items-center justify-center">
+            <img src={logo} alt="logo" className="h-44 object-contain" />
           </div>
           <small className="flex items-center justify-center pt-6">
             &copy;{new Date().getFullYear()} MediMeet. All rights reserved.

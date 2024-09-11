@@ -21,7 +21,7 @@ const Home = () => {
               patients. We aim to help patients find the right healthcare
               provider based on their needs, preferences, and location.
             </p>
-            <button className="w-full transition transform hover:scale-105 text-white hover:bg-skyBlue bg-blue text-darkGray focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-md px-3 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <button className="w-full transition transform hover:scale-105 text-white bg-purple focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-md px-3 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               ABOUT US
             </button>
           </div>
