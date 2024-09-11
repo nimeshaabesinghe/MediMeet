@@ -15,7 +15,7 @@ const ServiceCard = ({ serviceImage, service, description }) => {
           </div>
         </div>
         <div className="p-6">
-          <h5 className="font-bold text-2xl tracking-tight mb-3">{service}</h5>
+          <h5 className="font-bold text-xl tracking-tight mb-3">{service}</h5>
           <p className="font-normal text-lightGray mb-4">{description}</p>
           <button className="transition transform hover:scale-105 hover:text-white hover:bg-skyBlue bg-blue text-white focus:ring-4 focus:ring-blue font-medium rounded-lg text-sm px-4 py-2 text-center inline-flex items-center">
             Read more

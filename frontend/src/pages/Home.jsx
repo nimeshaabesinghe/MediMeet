@@ -1,43 +1,51 @@
 import React from "react";
-import i1 from "../assets/images (5).jpeg";
-import i2 from "../assets/images (6).jpeg";
-import i3 from "../assets/images (7).jpeg";
-import im1 from "../assets/group_discussion_meetingx3.svg";
-import im2 from "../assets/sonogram.svg";
-import im3 from "../assets/tooth.svg";
 import AvatarWithText from "../components/AvatarWithText";
 import Carousel from "../components/Carousel";
+
 const Home = () => {
   return (
     <>
-      <div className="">
+      <div className="py-8 px-4 md:px-8">
         <div className="flex flex-col md:flex-row items-center justify-center max-w-full">
-          <div className=" flex flex-col space-y-8 md:space-y-12 max-w-lg items-center md:items-start md:pl-12">
-            <h1 className="text-darkGray text-center md:text-left text-4xl font-semibold font-serif">
+          <div className="flex flex-col space-y-6 md:space-y-12 max-w-lg md:max-w-md lg:max-w-lg items-center md:items-start md:pl-12">
+            <h1 className="text-darkGray text-center md:text-left text-2xl md:text-3xl font-semibold font-serif">
               Welcome to MediMeet
             </h1>
-            <p className="text-lightGray text-center md:text-left text-balance">
-              MediMeet is a platform that connects healthcare professiona with
+            <p className="text-lightGray text-center md:text-left text-base md:text-lg">
+              MediMeet is a platform that connects healthcare professionals with
               patients. We aim to help patients find the right healthcare
               provider based on their needs, preferences, and location.
             </p>
-            <button className="w-full transition transform hover:scale-105 text-white bg-purple focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-md px-3 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <button className="w-full transition transform hover:scale-105 text-white bg-purple focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-md px-4 py-2 md:px-6 md:py-3 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               ABOUT US
             </button>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center mt-8 md:mt-0">
             <Carousel />
           </div>
         </div>
       </div>
-      <div>
-        <div className="mt-16 mb-16 font-serif text-lg font-semibold text-center">
-          Our Patients Have Access To Our Extensive Network Of Resources
+
+      <div className="py-8 px-4 md:px-8 lg:px-24">
+        <div className="text-center mb-12">
+          <h2 className=" text-2xl font-bold mb-4">
+            Find and Book Your Doctor
+          </h2>
+          <p className="text-lightGray leading-relaxed text-lg md:text-md italic">
+            Discover and schedule appointments with top healthcare professionals
+            who meet your needs.
+          </p>
         </div>
-        <div className="flex flex-wrap gap-6 justify-center items-center">
-          <AvatarWithText image={im1} text="GP & Family Medicine" />
-          <AvatarWithText image={im2} text="Baby & Child Specialist" />
-          <AvatarWithText image={im3} text="Dental Care" />
+
+        <div className="gap-y-4 flex flex-col md:flex-row justify-center items-center">
+          <AvatarWithText
+            text="Book an Appointment"
+            description="Easily schedule your visit with our user-friendly booking system. Select a time that works for you, and we'll handle the rest."
+          />
+          <AvatarWithText
+            text="Find a Doctor"
+            description="Search for qualified healthcare professionals by specialty and location to find the right doctor for your needs."
+          />
         </div>
       </div>
     </>
