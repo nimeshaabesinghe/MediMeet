@@ -51,13 +51,13 @@ const Service = () => {
     <section>
       <div className="mb-16 px-4">
         <div className="text-center mx-auto max-w-5xl">
-          <h1 className="text-3xl md:text-4xl font-serif font-bold text-darkGray mb-4">
+          <h1 className="text-3xl md:text-4xl font-semibold text-darkGray my-8">
             Our Medical Services
           </h1>
           <h3 className="text-base md:text-xl text-purple-700 mb-6">
             Comprehensive healthcare solutions tailored for your needs
           </h3>
-          <p className="text-balance text-lightGray leading-relaxed mb-8">
+          <p className=" text-balance text-lightGray leading-relaxed mb-8">
             "Our medical application offers a range of services designed to
             simplify and enhance your healthcare experience. From efficient
             patient management to convenient appointment scheduling,

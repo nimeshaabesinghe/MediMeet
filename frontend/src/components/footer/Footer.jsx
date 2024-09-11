@@ -24,8 +24,8 @@ const socialLinks = [
 ];
 const Footer = () => {
   return (
-    <div className="flex md:flex-row flex-col justify-between items-center bg-pastelBlue mt-16 p-8">
-      <div className="flex flex-col-1 items-center">
+    <div className="bg-[#b9b9d0] flex md:flex-row flex-col justify-between items-center mt-16 p-8">
+      <div className=" flex flex-col-1 items-center">
         <div>
           <div className="bg-white rounded-full shadow-sm shrink-0 flex items-center justify-center">
             <img src={logo} alt="logo" className="h-44 object-contain" />

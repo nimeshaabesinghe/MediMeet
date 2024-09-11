@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const AvatarWithText = ({ description, text }) => {
   return (
-    <div className="border-blue rounded-md border-2 p-4 flex flex-col items-center w-full md:w-80 lg:w-1/3 h-auto md:h-[100px] lg:h-[200px] mx-auto">
+    <div className="border-blue shadow-lg rounded-md border-2 p-4 flex flex-col items-center w-full md:w-80 lg:w-1/3 h-auto md:h-[100px] lg:h-[200px] mx-auto">
       <div className="text-darkGray text-center font-semibold text-base md:text-lg mb-2">
         {text}
       </div>
