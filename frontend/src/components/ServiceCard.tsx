@@ -8,7 +8,7 @@ const ServiceCard = ({ serviceImage, service, description }) => {
         <div className="flex justify-center mt-4">
           <div className="flex items-center justify-center">
             <img
-              className="w-36 h-36 object-contain"
+              className="w-24 h-24 object-contain"
               src={serviceImage}
               alt="Service Logo"
             />

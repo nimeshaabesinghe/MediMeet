@@ -1,18 +1,18 @@
 import React from "react";
 import ServiceCard from "../components/ServiceCard";
-import s1 from "../assets/appointment.png";
+import s1 from "../assets/medical-team.png";
 import s2 from "../assets/kidney.png";
 import s3 from "../assets/mental-health.png";
-import s4 from "../assets/online.png";
-import s5 from "../assets/pain.png";
+import s4 from "../assets/skin.png";
+import s5 from "../assets/tooth.png";
 import s6 from "../assets/playtime.png";
 
 const serviceList = [
   {
     serviceImage: s1,
-    service: "Online Appointment Booking",
+    service: "General Consultation",
     description:
-      "Schedule and confirm appointments online with ease, saving time and avoiding long waits.",
+      "Get expert medical advice and diagnosis for a variety of health issues.",
   },
   {
     serviceImage: s2,
@@ -28,15 +28,15 @@ const serviceList = [
   },
   {
     serviceImage: s4,
-    service: "Patient Management System",
+    service: "Dermatology",
     description:
-      "Organize and access your medical records and treatment history in one convenient system.",
+      "Treatment for skin, hair, and nail conditions to keep you looking your best.",
   },
   {
     serviceImage: s5,
-    service: "Telemedicine Consultation",
+    service: "Dental Care",
     description:
-      "Consult with healthcare providers via video call, receiving expert advice from home.",
+      "Full range of dental services to maintain and improve oral health.",
   },
   {
     serviceImage: s6,
@@ -49,13 +49,13 @@ const serviceList = [
 const Service = () => {
   return (
     <section>
-      <div className="bg-gradient-to-bl from-purple via-white to-white mb-12 -mt-2">
-        <div className="text-center ml-24 mr-24 ">
-          <h1 className="text-3xl pt-4">Our Medical Services</h1>
+      <div className=" mb-12">
+        <div className="text-center ml-24 mr-24 -mt-4">
+          <h1 className="text-3xl pt-4 font-serif">Our Medical Services</h1>
           <h3 className="text-xl pt-2 pb-8 text-purple">
             Comprehensive healthcare solutions tailored for your needs
           </h3>
-          <p className=" text-lightGray">
+          <p className=" text-lightGray leading-relaxed">
             "Our medical application offers a range of services designed to
             simplify and enhance your healthcare experience. From efficient
             patient management to convenient appointment scheduling,
