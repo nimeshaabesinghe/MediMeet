@@ -5,8 +5,8 @@ import logo from "../../assets/medimeet__3_-removebg-preview (1).png";
 const navLinks = [
   { path: "/home", title: "Home" },
   { path: "/service", title: "Services" },
-  { path: "/contact", title: "Contact" },
   { path: "/doctors", title: "Doctors" },
+  { path: "/contact", title: "Contact" },
   { path: "/login", title: "Login" },
   { path: "/signup", title: "SignUp" },
 ];
