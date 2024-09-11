@@ -16,7 +16,7 @@ const Home = () => {
             <h1 className="text-darkGray text-center md:text-left text-4xl font-semibold font-serif">
               Welcome to MediMeet
             </h1>
-            <p className="text-lightGray text-center md:text-left">
+            <p className="text-lightGray text-center md:text-left text-balance">
               MediMeet is a platform that connects healthcare professiona with
               patients. We aim to help patients find the right healthcare
               provider based on their needs, preferences, and location.

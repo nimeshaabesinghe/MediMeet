@@ -19,10 +19,10 @@ const Header = () => {
   };
 
   return (
-    <header className="flex items-center">
+    <header className="flex items-center shadow-md mb-4">
       <div className="max-w-full w-[1440px] px-5 mx-auto flex justify-between">
         <div>
-          <img src={logo} alt="logo" className="w-48" />
+          <img src={logo} alt="logo" className="w-32" />
         </div>
         <div>
           <ul className="flex items-center space-x-8 font-md pt-16 font-semibold">
@@ -32,13 +32,15 @@ const Header = () => {
                   to={link.path}
                   onClick={() => handleClick(link.path)}
                   className={({ isActive }) =>
-                    isActive
-                      ? link.path === "/login" || link.path === "/signup"
-                        ? "bg-skyBlue text-white border-2 border-skyBlue p-2 rounded "
-                        : "text-skyBlue font-semibold"
-                      : link.path === "/login" || link.path === "/signup"
-                      ? "text-skyBlue border-2 border-skyBlue p-2 rounded hover:bg-skyBlue hover:text-white transition-colors duration-300 ease-in-out"
-                      : "text-darkGray rounded p-2 hover:text-skyBlue transition-colors duration-300 ease-in-out"
+                    `p-2 ${
+                      isActive
+                        ? link.path === "/login" || link.path === "/signup"
+                          ? "bg-skyBlue text-white border-2 border-skyBlue p-2 rounded"
+                          : "text-skyBlue font-semibold"
+                        : link.path === "/login" || link.path === "/signup"
+                        ? "text-skyBlue border-2 border-skyBlue p-2 rounded hover:bg-skyBlue hover:text-white transition-colors duration-300 ease-in-out"
+                        : "text-darkGray rounded p-2 hover:text-skyBlue transition-colors duration-300 ease-in-out"
+                    }`
                   }
                 >
                   {link.title}

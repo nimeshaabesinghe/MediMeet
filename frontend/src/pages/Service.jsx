@@ -49,13 +49,15 @@ const serviceList = [
 const Service = () => {
   return (
     <section>
-      <div className=" mb-12">
-        <div className="text-center ml-24 mr-24 -mt-4">
-          <h1 className="text-3xl pt-4 font-serif">Our Medical Services</h1>
-          <h3 className="text-xl pt-2 pb-8 text-purple">
+      <div className="mb-16 px-4">
+        <div className="text-center mx-auto max-w-5xl">
+          <h1 className="text-3xl md:text-4xl font-serif font-bold text-darkGray mb-4">
+            Our Medical Services
+          </h1>
+          <h3 className="text-base md:text-xl text-purple-700 mb-6">
             Comprehensive healthcare solutions tailored for your needs
           </h3>
-          <p className=" text-lightGray leading-relaxed">
+          <p className="text-balance text-lightGray leading-relaxed mb-8">
             "Our medical application offers a range of services designed to
             simplify and enhance your healthcare experience. From efficient
             patient management to convenient appointment scheduling,
@@ -66,6 +68,7 @@ const Service = () => {
           </p>
         </div>
       </div>
+
       <div className="mx-40 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {serviceList.map((service, index) => (
           <ServiceCard
