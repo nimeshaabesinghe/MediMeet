@@ -5,7 +5,7 @@ const DoctorCard = ({ doctor }) => {
   const { name, specialty, avgRating, totalRating, photo, totalPatients } =
     doctor;
   return (
-    <div className="max-w-44 mx-auto">
+    <div className="max-w-48 mx-auto">
       <div className="shadow-md h-full overflow-hidden rounded-lg">
         <div className="flex justify-center mt-3">
           <img className="object-contain" src={photo} alt="doctor image" />
@@ -19,6 +19,7 @@ const DoctorCard = ({ doctor }) => {
               <span className="ml-2">{avgRating}</span>
             </div>
           </div>
+          <div className="text-red py-2">+{totalPatients} Total Patients</div>
           <button className="transition transform hover:scale-105 hover:text-white hover:bg-skyBlue bg-blue text-white focus:ring-4 focus:ring-blue font-medium rounded-lg text-sm px-4 py-2 text-center inline-flex items-center">
             Read more
             <svg

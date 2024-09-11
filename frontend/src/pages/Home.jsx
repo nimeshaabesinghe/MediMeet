@@ -8,7 +8,7 @@ const Home = () => {
       <div className="py-8 px-4 md:px-8">
         <div className="flex flex-col md:flex-row items-center justify-center max-w-full">
           <div className="flex flex-col space-y-6 md:space-y-12 max-w-lg md:max-w-md lg:max-w-lg items-center md:items-start md:pl-12">
-            <h1 className="text-darkGray text-center md:text-left text-2xl md:text-3xl font-semibold font-serif">
+            <h1 className="text-darkGray text-center md:text-left text-2xl md:text-4xl font-semibold">
               Welcome to MediMeet
             </h1>
             <p className="text-lightGray text-center md:text-left text-base md:text-lg">
